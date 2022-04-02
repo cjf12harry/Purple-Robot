@@ -1,4 +1,12 @@
 // import com.android.builder.core.DefaultManifestParser
+allprojects {
+    repositories {
+            mavenLocal()
+            maven { url "https://raw.githubusercontent.com/snowdream/m2repository/master/" }
+            maven {url "https://repo1.maven.org/maven2"}
+	    maven { url 'https://maven.google.com' }
+    }
+}
 
 buildscript {
     dependencies {
@@ -7,7 +15,7 @@ buildscript {
 
     repositories {
         jcenter()
-//        maven { url "https://oss.sonatype.org/content/groups/public/" }
+//        maven { url "https://oss.sonatype.org/content/groups/public/" }	
     }
 }
 
