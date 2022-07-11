@@ -10,12 +10,13 @@ allprojects {
 
 buildscript {
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.0.0'
+        classpath 'com.android.tools.build:gradle:3.2.0'
     }
 
     repositories {
-        jcenter()
-//        maven { url "https://oss.sonatype.org/content/groups/public/" }	
+        mavenCentral()
+        maven { url "https://maven.google.com" }
+        maven { url "https://oss.sonatype.org/content/groups/public/" }
     }
 }
 
@@ -42,7 +43,6 @@ android {
     }
 
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
