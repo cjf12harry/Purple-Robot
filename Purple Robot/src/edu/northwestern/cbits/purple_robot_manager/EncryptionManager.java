@@ -12,6 +12,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Objects;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
@@ -149,7 +150,7 @@ public class EncryptionManager
             userId = "unknown-user";
 
             AccountManager manager = (AccountManager) context.getSystemService(Context.ACCOUNT_SERVICE);
-            Account[] list = manager.getAccountsByType("com.google");
+            Account[] list = Objects.requireNonNull(manager).getAccountsByType("com.google");
 
             if (list.length == 0)
                 list = manager.getAccounts();

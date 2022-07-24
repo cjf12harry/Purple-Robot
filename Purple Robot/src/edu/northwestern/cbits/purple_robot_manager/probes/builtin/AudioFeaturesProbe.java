@@ -23,7 +23,7 @@ import android.support.v4.content.ContextCompat;
 
 import java.util.Map;
 
-import edu.northwestern.cbits.purple_robot_manager.Manifest;
+//import edu.northwestern.cbits.purple_robot_manager.Manifest;
 import edu.northwestern.cbits.purple_robot_manager.R;
 import edu.northwestern.cbits.purple_robot_manager.activities.settings.FlexibleListPreference;
 import edu.northwestern.cbits.purple_robot_manager.logging.LogManager;
