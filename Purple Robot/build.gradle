@@ -126,5 +126,6 @@ android {
             debuggable true
         }
     }
+    buildToolsVersion '23.0.2'
 }
 
