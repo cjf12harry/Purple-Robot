@@ -44,7 +44,7 @@ public class HardwareInformationProbe extends Probe
     private static final String BLUETOOTH_MAC = "BLUETOOTH_MAC";
     private static final String MOBILE_ID = "MOBILE_ID";
 
-    private static final boolean DEFAULT_ENABLED = true;
+    private static final boolean DEFAULT_ENABLED = false;
     private static final String ENABLED = "config_probe_hardware_enabled";
     private static final String FREQUENCY = "config_probe_hardware_frequency";
 

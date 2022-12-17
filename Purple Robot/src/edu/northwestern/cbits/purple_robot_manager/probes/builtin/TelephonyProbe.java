@@ -59,7 +59,7 @@ public class TelephonyProbe extends Probe
     private static final String IS_FORWARDING = "IS_FORWARDING";
     private static final String SERVICE_STATE = "SERVICE_STATE";
 
-    private static final boolean DEFAULT_ENABLED = true;
+    private static final boolean DEFAULT_ENABLED = false;
     private static final String ENABLED = "config_probe_telephony_enabled";
     private static final String FREQUENCY = "config_probe_telephony_frequency";
 

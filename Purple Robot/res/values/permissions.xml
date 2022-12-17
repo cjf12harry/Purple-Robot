@@ -5,7 +5,6 @@
         <item>android.permission.READ_LOGS</item>
         <item>android.permission.REAL_GET_TASKS</item>
         <item>android.permission.SYSTEM_ALERT_WINDOW</item>
-        <item>android.permission.PACKAGE_USAGE_STATS</item>
         <item>com.google.android.permission.PROVIDE_BACKGROUND</item>
     </string-array>
 
@@ -39,10 +38,9 @@
     <string name="permission_android_permission_get_accounts">Use local accounts to generate unique identifier (e.g. Gmail e-mail address)</string>
     <string name="permission_android_permission_read_sms">Access SMS text conversations</string>
     <string name="permission_android_permission_receive_boot_completed">Launch when device boots</string>
-    <string name="permission_android_permission_vibrate">Enable haptic vibration notifications</string>
     <string name="permission_android_permission_wake_lock">Prevent device\'s low-power mode from affecting data collection and schedules</string>
     <string name="permission_android_permission_write_external_storage">Write Purple Robot data to user-accessible storage</string>
-    <string name="permission_android_permission_read_phone_state">Determine when a call is in-progress or access other information about the device (including hardware identifiers)</string>
+    <!--<string name="permission_android_permission_read_phone_state">Determine when a call is in-progress or access other information about the device (including hardware identifiers)</string>-->
     <string name="permission_android_permission_record_audio">Use microphone to record audio (when Audio Capture Probe is enabled) and analyze sound in the ambient environment</string>
     <string name="permission_com_android_browser_permission_read_history_bookmarks">Access mobile browser history and bookmarks</string>
     <string name="permission_com_google_android_gms_permission_activity_recognition">Use sensors to predict current activity (running, walking, etc.)</string>

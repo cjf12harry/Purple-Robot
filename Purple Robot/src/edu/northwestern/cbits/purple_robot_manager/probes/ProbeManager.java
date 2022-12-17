@@ -14,6 +14,7 @@ import android.preference.Preference;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
+import android.util.Log;
 
 import edu.northwestern.cbits.purple_robot_manager.PersistentService;
 import edu.northwestern.cbits.purple_robot_manager.R;
@@ -809,7 +810,7 @@ public class ProbeManager
         probeCategories.add(context.getString(R.string.probe_other_devices_category));
         probeCategories.add(context.getString(R.string.probe_external_environment_category));
         probeCategories.add(context.getString(R.string.probe_personal_info_category));
-        probeCategories.add(context.getString(R.string.probe_external_services_category));
+        //probeCategories.add(context.getString(R.string.probe_external_services_category));
         probeCategories.add(context.getString(R.string.probe_misc_category));
         probeCategories.add(context.getString(R.string.probe_studies_category));
 
@@ -823,7 +824,7 @@ public class ProbeManager
         {
             PreferenceScreen probesScreen = manager.createPreferenceScreen(context);
             probesScreen.setTitle(key);
-
+            Log.i("testing", "buildPreferenceScreen: "+key);
             for (PreferenceScreen probeScreen : probeMap.get(key))
                 probesScreen.addPreference(probeScreen);
 

@@ -12,13 +12,13 @@
         <item>builtin.AccelerometerProbe</item>
         <item>builtin.AddressBookDistancesProbe</item>
         <item>builtin.BatteryProbe</item>
-        <item>builtin.BluetoothDevicesProbe</item>
+        <!--<item>builtin.BluetoothDevicesProbe</item>-->
         <item>builtin.CallStateProbe</item>
-        <item>builtin.CommunicationLogProbe</item>
-        <item>builtin.CommunicationEventProbe</item>
+        <!--<item>builtin.CommunicationLogProbe</item>-->
+        <!--<item>builtin.CommunicationEventProbe</item>-->
         <item>builtin.DateCalendarProbe</item>
         <item>builtin.GyroscopeProbe</item>
-        <item>builtin.HardwareInformationProbe</item>
+        <!--<item>builtin.HardwareInformationProbe</item>-->
         <item>builtin.LightProbe</item>
         <item>builtin.LocationProbe</item>
         <item>builtin.MagneticFieldProbe</item>
@@ -32,12 +32,12 @@
         <item>builtin.TelephonyProbe</item>
         <item>builtin.TemperatureProbe</item>
         <item>builtin.VisibleSatelliteProbe</item>
-        <item>builtin.WifiAccessPointsProbe</item>
+        <!--<item>builtin.WifiAccessPointsProbe</item>-->
         <item>builtin.AudioFeaturesProbe</item>
         <item>builtin.ApplicationLaunchProbe</item>
         
         <item>features.DeviceInUseFeature</item>
-        <item>features.CallHistoryFeature</item>
+        <!--<item>features.CallHistoryFeature</item>-->
         <item>features.SunriseSunsetFeature</item>
         <item>features.AccelerometerBasicStatisticsFeature</item>
         <item>features.GyroscopeBasicStatisticsFeature</item>
@@ -47,6 +47,7 @@
         <item>features.ProximityProbeBasicStatisticsFeature</item>
         <item>features.TemperatureProbeBasicStatisticsFeature</item>
 
+        <!--
         <item>services.iHealthProbe</item>
         <item>services.FitbitProbe</item>
         <item>services.FitbitBetaProbe</item>
@@ -58,7 +59,7 @@
         <item>services.FacebookProbe</item>
         <item>services.FacebookEventsProbe</item>
         <item>services.GooglePlacesProbe</item>
-        <item>services.WeatherUndergroundProbe</item>
+        <item>services.WeatherUndergroundProbe</item>-->
 
         <item>builtin.RandomNoiseProbe</item>
         <item>builtin.NfcProbe</item>
