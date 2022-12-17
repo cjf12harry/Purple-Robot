@@ -680,7 +680,6 @@ public class ProbeManager
             else if (probe instanceof WearAccelerometerProbe)
             {
                 WearAccelerometerProbe wear = (WearAccelerometerProbe) probe;
-
                 if (wear.name(context).equalsIgnoreCase(name))
                     found = true;
             }
